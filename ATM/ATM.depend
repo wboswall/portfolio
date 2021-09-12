@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1514752323 source:/home/william/Documents/ATMSoftware/atmprogram/ATM/main.c
+	<stdio.h>
+	<stdlib.h>
+
