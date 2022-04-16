@@ -21,7 +21,7 @@
 unsigned long amount=1000, deposit, withdraw;
 int choice, pin, k;
 char transaction='y';
-int main()
+int main(int argc, char *argv[])
 {
 	while(pin !=1520)
 	{
