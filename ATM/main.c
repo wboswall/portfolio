@@ -1,13 +1,13 @@
 /*Name:ATM Program
  *Description: To Display ATM transactions.
- *Problem Solution:
+ *Problem Specification:
  *	1. Firstly initialize the ATM pin and amount with some random number.
  *	2. Take the ATM pin as input.
  *	3. If the input pin is equal to the initialized pin, then do the further operations.
  *	4. Use switch statement to do the operations like: balance checking, cash withdrawal, cash deposition etc.
  *	5. Use while loop to terminate or restart  the process. 
  *Date Created:Jan 2, 2017
- *Date Released: Never
+ *Date Released: 2021/09/12
  *Date(s) Updated: 2021/09/12
  *Version: 1.0.0.2
  *Author: @wboswall
