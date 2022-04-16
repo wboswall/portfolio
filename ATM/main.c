@@ -12,7 +12,7 @@
  *Version: 1.0.0.2
  *Author: @wboswall
  *Copyright: 2018, 2019, 2020, 2021
- *License: WEBB INC. License but the educational section applies for this program. 
+ *License: MIT License 
  *
 */
 #include <stdio.h>
