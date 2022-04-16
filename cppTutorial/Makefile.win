@@ -1,0 +1,109 @@
+# Project: CPPTutorial
+# Makefile created by Embarcadero Dev-C++ 6.3
+
+CPP      = g++.exe -D__DEBUG__
+CC       = gcc.exe -D__DEBUG__
+WINDRES  = windres.exe
+OBJ      = lessonOne.o lessonTwo.o lessonThree.o lessonFour.o lessonFive.o lessonSix.o lessonSeven.o LessonEight.o lessonNine.o lessonTen.o lessonEleven.o lessonTwelve.o lessonThirteen.o lessonFourteen.o lessonFifteen.o lessonSixteen.o lessonSeventeen.o lessonEighteen.o lessonNineteen.o lessonTwenty.o lessonTwentyOne.o lessonTwentyTwo.o lessonTwentyThree.o lessonTwentyFour.o lessonTwentyFive.o lessonTwentySix.o lessonTwentySeven.o lessonTwentyEight.o
+LINKOBJ  = lessonOne.o lessonTwo.o lessonThree.o lessonFour.o lessonFive.o lessonSix.o lessonSeven.o LessonEight.o lessonNine.o lessonTen.o lessonEleven.o lessonTwelve.o lessonThirteen.o lessonFourteen.o lessonFifteen.o lessonSixteen.o lessonSeventeen.o lessonEighteen.o lessonNineteen.o lessonTwenty.o lessonTwentyOne.o lessonTwentyTwo.o lessonTwentyThree.o lessonTwentyFour.o lessonTwentyFive.o lessonTwentySix.o lessonTwentySeven.o lessonTwentyEight.o
+LIBS     = -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc -g3
+INCS     = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
+CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
+BIN      = CPPTutorial.exe
+CXXFLAGS = $(CXXINCS) -g3
+CFLAGS   = $(INCS) -g3
+DEL      = C:\Program Files (x86)\Embarcadero\Dev-Cpp\devcpp.exe INTERNAL_DEL
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${DEL} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CPP) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+lessonOne.o: lessonOne.cpp
+	$(CPP) -c lessonOne.cpp -o lessonOne.o $(CXXFLAGS)
+
+lessonTwo.o: lessonTwo.cpp
+	$(CPP) -c lessonTwo.cpp -o lessonTwo.o $(CXXFLAGS)
+
+lessonThree.o: lessonThree.cpp
+	$(CPP) -c lessonThree.cpp -o lessonThree.o $(CXXFLAGS)
+
+lessonFour.o: lessonFour.cpp
+	$(CPP) -c lessonFour.cpp -o lessonFour.o $(CXXFLAGS)
+
+lessonFive.o: lessonFive.cpp
+	$(CPP) -c lessonFive.cpp -o lessonFive.o $(CXXFLAGS)
+
+lessonSix.o: lessonSix.cpp
+	$(CPP) -c lessonSix.cpp -o lessonSix.o $(CXXFLAGS)
+
+lessonSeven.o: lessonSeven.cpp
+	$(CPP) -c lessonSeven.cpp -o lessonSeven.o $(CXXFLAGS)
+
+LessonEight.o: LessonEight.cpp
+	$(CPP) -c LessonEight.cpp -o LessonEight.o $(CXXFLAGS)
+
+lessonNine.o: lessonNine.cpp
+	$(CPP) -c lessonNine.cpp -o lessonNine.o $(CXXFLAGS)
+
+lessonTen.o: lessonTen.cpp
+	$(CPP) -c lessonTen.cpp -o lessonTen.o $(CXXFLAGS)
+
+lessonEleven.o: lessonEleven.cpp
+	$(CPP) -c lessonEleven.cpp -o lessonEleven.o $(CXXFLAGS)
+
+lessonTwelve.o: lessonTwelve.cpp
+	$(CPP) -c lessonTwelve.cpp -o lessonTwelve.o $(CXXFLAGS)
+
+lessonThirteen.o: lessonThirteen.cpp
+	$(CPP) -c lessonThirteen.cpp -o lessonThirteen.o $(CXXFLAGS)
+
+lessonFourteen.o: lessonFourteen.cpp
+	$(CPP) -c lessonFourteen.cpp -o lessonFourteen.o $(CXXFLAGS)
+
+lessonFifteen.o: lessonFifteen.cpp
+	$(CPP) -c lessonFifteen.cpp -o lessonFifteen.o $(CXXFLAGS)
+
+lessonSixteen.o: lessonSixteen.cpp
+	$(CPP) -c lessonSixteen.cpp -o lessonSixteen.o $(CXXFLAGS)
+
+lessonSeventeen.o: lessonSeventeen.cpp
+	$(CPP) -c lessonSeventeen.cpp -o lessonSeventeen.o $(CXXFLAGS)
+
+lessonEighteen.o: lessonEighteen.cpp
+	$(CPP) -c lessonEighteen.cpp -o lessonEighteen.o $(CXXFLAGS)
+
+lessonNineteen.o: lessonNineteen.cpp
+	$(CPP) -c lessonNineteen.cpp -o lessonNineteen.o $(CXXFLAGS)
+
+lessonTwenty.o: lessonTwenty.cpp
+	$(CPP) -c lessonTwenty.cpp -o lessonTwenty.o $(CXXFLAGS)
+
+lessonTwentyOne.o: lessonTwentyOne.cpp
+	$(CPP) -c lessonTwentyOne.cpp -o lessonTwentyOne.o $(CXXFLAGS)
+
+lessonTwentyTwo.o: lessonTwentyTwo.cpp
+	$(CPP) -c lessonTwentyTwo.cpp -o lessonTwentyTwo.o $(CXXFLAGS)
+
+lessonTwentyThree.o: lessonTwentyThree.cpp
+	$(CPP) -c lessonTwentyThree.cpp -o lessonTwentyThree.o $(CXXFLAGS)
+
+lessonTwentyFour.o: lessonTwentyFour.cpp
+	$(CPP) -c lessonTwentyFour.cpp -o lessonTwentyFour.o $(CXXFLAGS)
+
+lessonTwentyFive.o: lessonTwentyFive.cpp
+	$(CPP) -c lessonTwentyFive.cpp -o lessonTwentyFive.o $(CXXFLAGS)
+
+lessonTwentySix.o: lessonTwentySix.cpp
+	$(CPP) -c lessonTwentySix.cpp -o lessonTwentySix.o $(CXXFLAGS)
+
+lessonTwentySeven.o: lessonTwentySeven.cpp
+	$(CPP) -c lessonTwentySeven.cpp -o lessonTwentySeven.o $(CXXFLAGS)
+
+lessonTwentyEight.o: lessonTwentyEight.cpp
+	$(CPP) -c lessonTwentyEight.cpp -o lessonTwentyEight.o $(CXXFLAGS)
