@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "6rWma2GKPALB3bn+GaZj3go23v/MeCjw/Sqo1dxBl4PuSHLKmW+Kg8Em4M0ulJpjdvPJ/3kSY8l8SDJBT0gZjA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wbosw\\GitHub\\portfolio\\ShorlineFSharpLib\\ShorlineFSharpLib.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\wbosw\\.nuget\\packages\\fsharp.core\\6.0.2\\fsharp.core.6.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}
