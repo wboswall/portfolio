@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author wboswall
- *
- */
-module spitFireJavaLib {
-}
