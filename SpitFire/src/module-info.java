@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author wbosw
+ *
+ */
+module SpitFire {
+}
