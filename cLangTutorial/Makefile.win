@@ -4,8 +4,8 @@
 CPP      = g++.exe -D__DEBUG__
 CC       = gcc.exe -D__DEBUG__
 WINDRES  = windres.exe
-OBJ      = lessonOne.o lessonTwo.o lessonThree.o lessonFour.o lessonFive.o lessonSix.o lessonSeven.o lessonEight.o lessonNine.o lessonTen.o lessonEleven.o lessonTwelve.o lessonThirteen.o lessonFourteen.o lessonFifteen.o lessonSixteen.o lessonSeventeen.o lessonEighteen.o lessonNineteen.o lessonTwenty.o lessonTwentyOne.o lessonTwentyTwo.o
-LINKOBJ  = lessonOne.o lessonTwo.o lessonThree.o lessonFour.o lessonFive.o lessonSix.o lessonSeven.o lessonEight.o lessonNine.o lessonTen.o lessonEleven.o lessonTwelve.o lessonThirteen.o lessonFourteen.o lessonFifteen.o lessonSixteen.o lessonSeventeen.o lessonEighteen.o lessonNineteen.o lessonTwenty.o lessonTwentyOne.o lessonTwentyTwo.o
+OBJ      = main.o
+LINKOBJ  = main.o
 LIBS     = -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib" -L"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/lib" -static-libgcc -g3
 INCS     = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include"
 CXXINCS  = -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/x86_64-w64-mingw32/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include" -I"C:/Program Files (x86)/Embarcadero/Dev-Cpp/TDM-GCC-64/lib/gcc/x86_64-w64-mingw32/9.2.0/include/c++"
@@ -24,68 +24,5 @@ clean: clean-custom
 $(BIN): $(OBJ)
 	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
 
-lessonOne.o: lessonOne.c
-	$(CC) -c lessonOne.c -o lessonOne.o $(CFLAGS)
-
-lessonTwo.o: lessonTwo.c
-	$(CC) -c lessonTwo.c -o lessonTwo.o $(CFLAGS)
-
-lessonThree.o: lessonThree.c
-	$(CC) -c lessonThree.c -o lessonThree.o $(CFLAGS)
-
-lessonFour.o: lessonFour.c
-	$(CC) -c lessonFour.c -o lessonFour.o $(CFLAGS)
-
-lessonFive.o: lessonFive.c
-	$(CC) -c lessonFive.c -o lessonFive.o $(CFLAGS)
-
-lessonSix.o: lessonSix.c
-	$(CC) -c lessonSix.c -o lessonSix.o $(CFLAGS)
-
-lessonSeven.o: lessonSeven.c
-	$(CC) -c lessonSeven.c -o lessonSeven.o $(CFLAGS)
-
-lessonEight.o: lessonEight.c
-	$(CC) -c lessonEight.c -o lessonEight.o $(CFLAGS)
-
-lessonNine.o: lessonNine.c
-	$(CC) -c lessonNine.c -o lessonNine.o $(CFLAGS)
-
-lessonTen.o: lessonTen.c
-	$(CC) -c lessonTen.c -o lessonTen.o $(CFLAGS)
-
-lessonEleven.o: lessonEleven.c
-	$(CC) -c lessonEleven.c -o lessonEleven.o $(CFLAGS)
-
-lessonTwelve.o: lessonTwelve.c
-	$(CC) -c lessonTwelve.c -o lessonTwelve.o $(CFLAGS)
-
-lessonThirteen.o: lessonThirteen.c
-	$(CC) -c lessonThirteen.c -o lessonThirteen.o $(CFLAGS)
-
-lessonFourteen.o: lessonFourteen.c
-	$(CC) -c lessonFourteen.c -o lessonFourteen.o $(CFLAGS)
-
-lessonFifteen.o: lessonFifteen.c
-	$(CC) -c lessonFifteen.c -o lessonFifteen.o $(CFLAGS)
-
-lessonSixteen.o: lessonSixteen.c
-	$(CC) -c lessonSixteen.c -o lessonSixteen.o $(CFLAGS)
-
-lessonSeventeen.o: lessonSeventeen.c
-	$(CC) -c lessonSeventeen.c -o lessonSeventeen.o $(CFLAGS)
-
-lessonEighteen.o: lessonEighteen.c
-	$(CC) -c lessonEighteen.c -o lessonEighteen.o $(CFLAGS)
-
-lessonNineteen.o: lessonNineteen.c
-	$(CC) -c lessonNineteen.c -o lessonNineteen.o $(CFLAGS)
-
-lessonTwenty.o: lessonTwenty.c
-	$(CC) -c lessonTwenty.c -o lessonTwenty.o $(CFLAGS)
-
-lessonTwentyOne.o: lessonTwentyOne.c
-	$(CC) -c lessonTwentyOne.c -o lessonTwentyOne.o $(CFLAGS)
-
-lessonTwentyTwo.o: lessonTwentyTwo.c
-	$(CC) -c lessonTwentyTwo.c -o lessonTwentyTwo.o $(CFLAGS)
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
