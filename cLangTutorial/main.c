@@ -5,7 +5,7 @@
  *Date(s) Updated:  
  *Version: 1.0.0.0
  *Author: @wboswall
- *Copyright: 2018, 2019, 2020, 2021, 2022
+ *Copyright: 2022
  *License: MIT License
  *
 */
