@@ -13,6 +13,7 @@
  *
 */
 #include <iostream>
+#include "cppLessons.h"
 using namespace std;
 
 int main (int argc, char *argv[])
