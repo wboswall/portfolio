@@ -13,12 +13,15 @@
  *
 */
 #include <iostream>
-#include "cppLessons.h"
+/*
+ * Custom Header Files
+ */
+#include <cppLessons.h>
 using namespace std;
 
 int main (int argc, char *argv[])
 {
-	cout << "Welcome to the CPP Tutorial!/n" << endl;
-	cout  << "Hello World!" << endl;
+	displayGoodLuckGreeting();
+	displayIntroduction();
 	return 0;
 }
