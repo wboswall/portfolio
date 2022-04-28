@@ -1,5 +1,5 @@
 /*Name: CppTutorial
- *File name: lessonOne.cpp
+ *File name: main.cpp
  *Description: A series of C++ lessons for people who want to learn programming.
  *Problem Specification:
  *	-> Create a series of C++ lesson programs based of Sams Teach Yourself C++ in One Hour A Day
