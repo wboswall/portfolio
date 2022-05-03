@@ -4,4 +4,4 @@ Please see license on why this repository it is restricted: https://github.com/w
 Feel free to look at the other repositories that have an open source license. 
 
 # Table of Contents
-To Do: list the best softwar projects from the first to the best ones.
+To Do: list the best software projects from the first to the best ones.
